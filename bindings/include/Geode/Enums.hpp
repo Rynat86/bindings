@@ -296,7 +296,9 @@ enum class GauntletType {
     Discord = 0x31,
     Split = 0x32,
     NCS = 0x33,
-    NCS2 = 0x34
+    NCS2 = 0x34,
+    Space = 0x35,
+    Cosmos = 0x36
 };
 enum class GJMPErrorCode {};
 enum class GJTimedLevelType {
@@ -748,7 +750,8 @@ enum class GJRewardType
     Key10Treasure = 0x5,
     Key25Treasure = 0x6,
     Key50Treasure = 0x7,
-    Key100Treasure = 0x8
+    Key100Treasure = 0x8,
+    Gold = 0x9
 };
 
 enum class IconType {
